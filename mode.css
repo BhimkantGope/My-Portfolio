@@ -1,0 +1,101 @@
+/* Variables Create */
+:root {
+    --dark-clr: #081c2b;
+    --second-dark-clr: #112e42;
+    --text-clr: #f1f5f9;
+    --light-text-clr: #c9d9e8;
+    --global-clr: #0fbbff;
+    --btn-clr: #ff499e;
+    --light-clr: #fff;
+}
+
+body {
+    background: linear-gradient(90deg, var(--text-clr), var(--light-clr));
+    color: var(--dark-clr);
+}
+
+header {
+    background-color: var(--light-clr);
+}
+
+.logo {
+    color: var(--dark-clr);
+}
+
+.navbar ul li a {
+    color: var(--dark-clr);
+}
+
+.mode {
+    margin-right: 1rem;
+    color: var(--dark-clr);
+}
+.mode:hover {
+    color: var(--global-clr)
+}
+
+.mode::after{
+    color: var(--text-clr);
+}
+
+.mode:hover::after {
+    color: var(--text-clr);
+}
+
+.btn::before {
+    background: var(--text-clr);
+}
+
+.hero-image img{
+    border: 2px solid var(--light-clr);
+    padding: 2px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+/* about section */
+
+.tab-title {
+    color: var(--dark-clr);
+}
+
+.stack button {
+    background-color: var(--light-clr);
+    color: var(--second-dark-clr);
+    border: 1px solid var(--global-clr);
+}
+
+
+/* project section */
+
+.work {
+    color: var(--text-clr);
+}
+
+/* feedback */
+
+.feedback {
+    background-color: rgba(201, 217, 232, 0.5);
+}
+
+.feedback-content marquee span{
+    box-shadow: var(--light-text-clr);
+    background-color: var(--light-clr);
+}
+
+.stats .stat span {
+    color: var(--dark-clr);
+}
+
+#website-info {
+    background-color: var(--light-text-clr);
+    color: var(--dark-clr);
+}
+
+
+form input, form textarea{
+    background-color: var(--light-clr);
+    border: 1px solid var(--global-clr);
+}

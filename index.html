@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="mode.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo" style="--i: 1">Port<span>folio</span></a>
+            <ul>
+                <li><a href="index.html" class="active" style="--i: 2">Home</a></li>
+                <li><a href="#about" class="about-active" style="--i: 3">About</a></li>
+                <li><a href="#education" class="education-active" style="--i: 4">Education</a></li>
+                <li><a href="#skills" class="skills-active" style="--i: 5">Skills</a></li>
+                <li><a href="#projects" class="services-active" style="--i: 6">Projects</a></li>
+                <li><a href="#contact" class="contact-active" style="--i: 7">Contact</a></li>
+            </ul>
+            <span>
+                <a href="#" style="--i: 8"><i class="fa-solid fa-moon mode"></i></a>
+                <a href="#" style="--i: 8"><i class="fa-solid fa-sun mode"></i></a>
+                <a href="Bhimkant_Gope_Resume copy.docx" alt="My Resume" download class="cvbtn" style="--i: 9">Download CV<i class="fa-solid fa-download"></i></a>
+            </span>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main> 
+        <section id="home" class="hero-container">
+            <div class="hero-image hero-image-animation">
+                <img src="images/ProfileImage_070300~2.png" alt="image">
+            </div>
+            <div class="hero-content hero-content-animation">
+                <h3 style="--i: 1">Hello I'm</h3>
+                <h1 style="--i: 2">Bhimkant Gope</h1>
+                <h2 style="--i: 3">And I'm a <span class="auto-type"></span></h2>
+                <p style="--i: 4">I'm Bhimkant, a passionate Full Stack Web Developer focused on crafting clean, scalable, and user-friendly web applications. Skilled in Frontend Technologies like- JavaScript, CSS, HTML, Bootstrap and Backend Technologies like- ExpressJs, NodeJs, MongoDB(Database). I emphasize innovation and excellence. My goal is to grow into a proficient Full-Stack Developer, constantly seeking new challenges to enhance my skills.</p>
+
+                <div class="location" style="--i: 5">
+                    <p><i class="fa-solid fa-location-dot"></i> Ranchi, Jharkhand, India</p>
+                </div>
+
+                <div class="social-icons" style="--i: 6">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+                </div>
+                
+                <div class="hero-btn" style="--i: 7">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-container about-container-animation">
+            <h1 style="--i: 1" class="about-title">About <span>Me</span></h1>
+            <div class="about-content">  
+                <div class="about-content-info">
+                    <span class="about-intro-info about-container-animation">    
+                        <h2 style="--i: 2">Who I Am?</h2>
+                        <ul style="--i: 3">
+                            <li>I'm Bhimkant, a passionate Full Stack Web Developer focused on crafting clean, scalable, and user-friendly web applications. I enjoy working across the stack - from designing intuitive UIs to building efficient backends.</li>
+                            <br>
+                            <li>My journey revolves around consistency, curiosity, and learning by building real-world projects instead of just tutorials.</li>  
+                        </ul>
+                    </span> 
+                    <span class="about-general-info about-container-animation">
+                        <h2 style="--i: 2" >What I Do?</h2>
+                        <ul style="--i: 3" >
+                            <li>Build full-stack web applications</li>
+                            <li>Work with mordern frameworks & tools</li>
+                            <li>Solve DSA & system-design problems</li>
+                        </ul>
+                    </span>         
+                </div> 
+                <div class="about-stack-title about-container-animation">
+                    <h2 style="--i: 4" >Tech Stack</h2>
+                    <div class="about-content-stack about-container-animation">
+                        <div style="--i: 5" class="frontend stack">
+                            <h3>Frontend</h3>
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Tailwind CSS</button>
+                            <button>React.js</button>
+                        </div>
+                        <div style="--i: 5" class="backend stack">
+                            <h3>Backend</h3>
+                            <button>Node.js</button>
+                            <button>Express.js</button>
+                            <button>REST APIs</button>
+                        </div>
+                        <div style="--i: 6" class="database stack">
+                            <h3>Databases</h3>
+                            <button>MongoDB</button>
+                            <button>SQL</button>
+                        </div>                        
+                        <div style="--i: 6" class="language stack">
+                            <h3>Languages</h3>
+                            <button>Java</button>
+                            <button>JavaScript</button>
+                        </div>
+                        <div style="--i: 7" class="Other-tools stack">
+                            <h3>Other Tools</h3>
+                            <button>Git & Github</button>
+                            <button>Docker</button>
+                            <button>CI/CD (Basics)</button>
+                        </div>
+                        <div style="--i: 7" class="cs-fundamental stack">
+                            <h3>CS Fundamentals</h3>
+                            <button>Networking Fundamentals</button>
+                            <button>System Design(Basics)</button>
+                            <button>OOPs Concepts</button>
+                            <button>Asynchronous Systems</button>
+                            <button>Data Structures & Algorithms</button>
+                            <button>Database Management System(Basics)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+
+        <section id="education" class="education-container">
+            <div class="education-title active-link education-container-animation">
+                <h1 style="--i: 1">My <span>Education</span></h1>
+            </div>
+            <div class="education-sub-title education-container-animation">
+                <h2 style="--i: 2">Learning Journey</h2>
+            </div>
+            <div class="education-content education-container-animation active-tab">
+                <ul>
+                    <li style="--i: 5">
+                        <div class="img-div">
+                            <img src="images/dspmu.webp" alt="My graduaton college.">
+                        </div>
+                        <div class="content-div">
+                            <div class="calender-div">
+                                <i class="fa-solid fa-calendar"></i>
+                                2022 - 2025
+                            </div>
+                            <p>Bs.c (Computer Application) - Dr. Shyama Prasad Mukherjee University Ranchi.<br>Percentage - 78.04%</p>
+                        </div>
+                    </li>
+                    <li style="--i: 6">
+                        <div class="img-div">
+                            <img src="images/sjickn.png" alt="My Intermediate college.">
+                        </div>
+                        <div class="content-div">
+                            <div class="calender-div">
+                                <i class="fa-solid fa-calendar"></i>
+                                2020 - 2022
+                            </div>
+                            <p>Intermediate - St. Joseph's Inter College Konbir Basia.<br>
+                            Percentage - .62.04%</p>
+                        </div>
+                    </li>
+                    <li style="--i: 7">
+                        <div class="img-div">
+                            <img src="images/svhsl.png" alt="My matric school.">
+                        </div>
+                        <div class="content-div">
+                            <div class="calender-div">
+                                <i class="fa-solid fa-calendar"></i>
+                                2018 - 2020
+                            </div>
+                            <p>Metric - St. vianney Heigh School Lachragarh Simdega.<br>
+                            Percentage - 74.20%</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="about-sub-title about-container-animation">
+                <div style="--i: 4" id="education" class="tab-heads">
+                    <p class="tab-title" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div id="experience" class="tab-contents">
+                  
+                    <ul class="tab-body about-container-animation" id="experience">
+                        <li style="--i: 5">
+                            <span>Internship 
+                                <i class="fa-solid fa-calendar"></i><i>1'AUG - 1'SEP</i>
+                            </span><br>
+                            <b>Basics Machine Learning and Data Visualization - Lifetech Software Solution.</b><br>
+                            That was my second internship, There i worked as Juniour ML/Data Visualization developer.
+                            <br> - I developed desktop assistant using Pyton.
+                            <br> - I also learned basics of data visualization as well.
+                        </li>
+                        <li style="--i: 6">
+                            <span>Internship 
+                                <i class="fa-solid fa-calendar"></i><i>5'JUN - 5'JULY</i>
+                            </span><br>
+                            <b>Frontend Web Developer - Briztech Infosystem.</b><br>
+                            That was my first internship there i worked as a frontend web devloper at Briztech Infosystem.
+                            <br> - I built my college website web page.
+                            <br> - I worked on technologies like - HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+        </section>
+            
+        <!-- Skills Section -->
+        <section id="skills" class="skills-container skills-container-animation">
+            <h1 style="--i: 1" class="skills-title">My <span>Skills</span></h1>
+            <ul class="skills-info skills-container-animation">
+                <li style="--i: 2" class="skills-img"><img src="images/html.jpeg" alt="html logo"><span>HTML</span></li>
+                <li style="--i: 3" class="skills-img"><img src="images/css.jpeg" alt="css logo"><span>CSS</span></li>
+                <li style="--i: 4" class="skills-img"><img src="images/tailwind1.png" alt="tailwindcss logo"><span>TailwindCSS</span></li>
+                <li style="--i: 5" class="skills-img"><img src="images/bootstrap.jpeg" alt="bootstrap logo"><span>Bootstrap</span></li>
+                <li style="--i: 6" class="skills-img"><img src="images/javascript.jpeg" alt="javascript logo"><span>JavaScript</span></li>
+                <li style="--i: 7" class="skills-img"><img src="images/reactjs.jpeg" alt="reactjs logo"><span>ReactJs</span></li>
+                <li style="--i: 8" class="skills-img"><img src="images/nodejs.jpeg" alt="nodejs logo"><span>NodeJs</span></li>
+                <li style="--i: 9" class="skills-img"><img src="images/express1.png" alt="expressjs logo"><span>ExpressJs</span></li>
+                <li style="--i: 10" class="skills-img"><img src="images/mongodb.jpeg" alt="mongodb logo"><span>MongoDB</span></li>
+                <li style="--i: 11" class="skills-img"><img src="images/sql.jpg" alt="sql logo"><span>SQL</span></li>
+                <li style="--i: 12" class="skills-img"><img src="images/java.jpeg" alt="java logo"><span>Java</span></li>
+                <li style="--i: 13" class="skills-img"><img src="images/git.jpg" alt="git logo"><span>Git</span></li>
+                <li style="--i: 14" class="skills-img"><img src="images/docker.jpeg" alt="docker logo"><span>Docker</span></li>
+                <li style="--i: 15" class="skills-img"><img src="images/kubernetes1.jpeg" alt="kubernets logo"><span>Kubernet</span></li>
+            </ul>
+        </section>
+
+        <!-- Project Section -->
+        <section id="projects">
+            <div class="project-container projects-container-animation">
+                <h1 style="--i: 1" class="project-sub-title">My <span>Projects</span></h1>
+                <div class="work-list projects-container-animation">
+                    <div style="--i: 2" class="work">
+                        <img src="images/amazon.png">
+                        <div class="layer">
+                            <h3>Amazon clone Website</h3>
+                            <p>The web connects you to the many more products.</p>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                                <a href="http://127.0.0.1:5500/index.HTML"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="--i: 3" class="work">
+                        <img src="images/tictactoe.png">
+                        <div class="layer">
+                            <h3>Tic Tac Toe</h3>
+                            <p>This game connects you to childhood memories.</p>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                                <a href="file:///C:/Users/BHIMKANTGOPE/Desktop/Tic-tac-toe-project/Tic_Tac_Toe_Project/index.html"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="--i: 4" class="work">
+                        <img src="images/rockpaper.png">
+                        <div class="layer">
+                            <h3>Rock Paper Scissors</h3>
+                            <p>This game for you strees mind.</p>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="projects.html" style="--i: 5" class="btn">See More</a>
+            </div>
+        </section>
+
+        
+        <!-- Feedback -->
+        <div class="feedback projects-container-animation">
+            <div class="feedback-title">
+                <h2 style="--i: 6 margin-right: 2rem">Feedback - What people think about my portfolio website.</h2> 
+            </div>
+            <div style="--i: 7" class="feedback-content">
+                <marquee direction="right" behavior="alternate" class="cont ent-box">
+                    <span>
+                        <h3>Bhimkant Gope <i class="fab fa-linkedin"></i></h3>
+                        <p>
+                            It's very well website in my life. It's very well website in my life. <br>
+                            <a href="#"> Read More &#x2192;</a>
+                        </p>
+                    </span>
+                    <span>
+                        <h3>Bhimkant Gope <i class="fab fa-linkedin"></i></h3>
+                        <p>
+                            It's very well website in my life. It's very well website in my life. <br>
+                            <a href="#"> Read More &#x2192;</a>
+                        </p>
+                    </span>
+                    <span>
+                        <h3>Bhimkant Gope <i class="fab fa-linkedin"></i></h3>
+                        <p>
+                            It's very well website in my life. It's very well website in my life. <br>
+                            <a href="#"> Read More &#x2192;</a>
+                        </p>
+                    </span>
+                    <span>
+                        <h3>Bhimkant Gope <i class="fab fa-linkedin"></i></h3>
+                        <p>
+                            It's very well website in my life. It's very well website in my life. <br>
+                            <a href="#"> Read More &#x2192;</a>
+                        </p>
+                    </span>
+                    <span>
+                        <h3>Bhimkant Gope <i class="fab fa-linkedin"></i></h3>
+                        <p>
+                            It's very well website in my life. It's very well website in my life. <br>
+                            <a href="#"> Read More &#x2192;</a>
+                        </p>
+                    </span>
+                    <span>
+                        <h3>Bhimkant Gope <i class="fab fa-linkedin"></i></h3>
+                        <p>
+                            It's very well website in my life. It's very well website in my life. <br>
+                            <a href="#"> Read More &#x2192;</a>
+                        </p>
+                    </span>
+                </marquee>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: marquee 5s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused; /* Stops movement on hover */
+} 
+<div class="marquee">Hover over this text to pause the marquee effect.</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Contact Section -->
+        
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 style="--i: 1" class="contact-sub-title">Contact <span>Me</span></h1>
+                        <p style="--i: 2"><i class="fas fa-phone-square-alt"></i> 8603992705</p>
+                        <p style="--i: 3"><i class="fas fa-paper-plane"></i> bhimkantgope8@gmail.com</p>
+                        <p style="--i: 4"><i class="fa-solid fa-location-dot"></i> Bano, Simdega, Jharkhand, India (835201)</p>
+                        
+                        <!-- <div class="social-icons social-icons-animation">
+                            <a style="--i: 5" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a style="--i: 6" href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+                            <a style="--i: 7" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a style="--i: 8" href="https://www.linked.com"><i class="fab fa-linkedin"></i></a>
+                        </div> -->
+                        
+                        <div class="social-icons" style="--i: 6">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-github"></i></a>
+                            <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+                        </div>
+
+
+                        <!-- <a href="Bhimkant gope (3).pdf" alt="image file" download class="btn btn2">Download CV</a> -->
+                    </div>
+                    <div class="contact-right">
+                        <form action="/server" name="submit-to-google-sheet">
+                            <input style="--i: 1" type="text" name="Name" placeholder="Your Name" required>
+                            <input style="--i: 2" type="email" name="Email" placeholder="Your Email" required>
+                            <textarea style="--i: 3" name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button style="--i: 4" type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats">
+            <div style="--i: 5" class="stat">
+                <h1>2+</h1>
+                <span>Years of <br>experience</span>
+            </div>
+            <div style="--i: 6" class="stat">
+                <h1>30+</h1>
+                <span>Projects <br>completed</span>
+            </div>
+            <div style="--i: 7" class="stat">
+                <h1>4+</h1>
+                <span>Technologies <br>mastered</span>
+            </div>
+            <div style="--i: 8" class="stat">
+                <h1>50+</h1>
+                <span>Satisfied <br>client</span>
+            </div>
+        </section>
+    </main>
+
+    <footer id="website-info">
+        <div class="copyright">
+            <p style="--i: 9">Copyright &copy; 2025 Bhimkant Gope. Made with <i class="fas fa-heart"></i> by Me! All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
