@@ -6,16 +6,9 @@ let typed1 = new Typed(".auto-type", {
 });
 
 
-let tablinks = document.getElementsByClassName("tab-title");
-let tabcontents = document.getElementsByClassName("tab-body");
+let themeBtn = document.querySelector(".theme-btn");
+let body = document.querySelector("body");
 
-function opentab(tabname, event) {
-    for (let tablink of tablinks) {
-        tablink.classList.remove("active-link");
-    }
-    for (let tabcontent of tabcontents) {
-        tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-}
+themeBtn.addEventListener("click", function() {
+    body.classList.toggle("body-color");
+});

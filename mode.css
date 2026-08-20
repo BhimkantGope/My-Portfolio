@@ -26,22 +26,6 @@ header {
     color: var(--dark-clr);
 }
 
-.mode {
-    margin-right: 1rem;
-    color: var(--dark-clr);
-}
-.mode:hover {
-    color: var(--global-clr)
-}
-
-.mode::after{
-    color: var(--text-clr);
-}
-
-.mode:hover::after {
-    color: var(--text-clr);
-}
-
 .btn::before {
     background: var(--text-clr);
 }

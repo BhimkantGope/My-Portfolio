@@ -15,7 +15,7 @@
         <nav class="navbar">
             <a href="index.html" class="logo" style="--i: 1">Port<span>folio</span></a>
             <ul>
-                <li><a href="index.html" class="active" style="--i: 2">Home</a></li>
+                <li><a href="#" class="home-active" style="--i: 2">Home</a></li>
                 <li><a href="#about" class="about-active" style="--i: 3">About</a></li>
                 <li><a href="#education" class="education-active" style="--i: 4">Education</a></li>
                 <li><a href="#skills" class="skills-active" style="--i: 5">Skills</a></li>
@@ -23,9 +23,11 @@
                 <li><a href="#contact" class="contact-active" style="--i: 7">Contact</a></li>
             </ul>
             <span>
-                <a href="#" style="--i: 8"><i class="fa-solid fa-moon mode"></i></a>
-                <a href="#" style="--i: 8"><i class="fa-solid fa-sun mode"></i></a>
-                <a href="Bhimkant_Gope_Resume copy.docx" alt="My Resume" download class="cvbtn" style="--i: 9">Download CV<i class="fa-solid fa-download"></i></a>
+                <button class="theme-btn" style="--i: 8">Theme</button>
+                <a href="Bhimkant_Gope_Resume copy.docx" alt="My Resume" download class="cvbtn" style="--i: 9">
+                    Download CV
+                    <i class="fa-solid fa-download"></i>
+                </a>
             </span>
         </nav>
     </header>
@@ -141,6 +143,18 @@
                 <ul>
                     <li style="--i: 5">
                         <div class="img-div">
+                            <img src="images/Marwari-College-ranchi.webp" alt="My PG college.">
+                        </div>
+                        <div class="content-div">
+                            <div class="calender-div">
+                                <i class="fa-solid fa-calendar"></i>
+                                2025 - 2027
+                            </div>
+                            <p>Masters in Computer Applications - Marwari College, Ranchi.Dr.<br>CGPA - 00.00</p>
+                        </div>
+                    </li>
+                    <li style="--i: 5">
+                        <div class="img-div">
                             <img src="images/dspmu.webp" alt="My graduaton college.">
                         </div>
                         <div class="content-div">
@@ -148,7 +162,7 @@
                                 <i class="fa-solid fa-calendar"></i>
                                 2022 - 2025
                             </div>
-                            <p>Bs.c (Computer Application) - Dr. Shyama Prasad Mukherjee University Ranchi.<br>Percentage - 78.04%</p>
+                            <p>Bs.c (Computer Application) - Dr. Shyama Prasad Mukherjee University Ranchi.<br>CGPA - 8.04</p>
                         </div>
                     </li>
                     <li style="--i: 6">
@@ -179,6 +193,7 @@
                     </li>
                 </ul>
             </div>
+
             <!-- <div class="about-sub-title about-container-animation">
                 <div style="--i: 4" id="education" class="tab-heads">
                     <p class="tab-title" onclick="opentab('experience')">Experience</p>
@@ -272,7 +287,6 @@
                 <a href="projects.html" style="--i: 5" class="btn">See More</a>
             </div>
         </section>
-
         
         <!-- Feedback -->
         <div class="feedback projects-container-animation">
@@ -327,51 +341,7 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-@keyframes marquee {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-100%); }
-}
-
-.marquee {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 100%;
-    animation: marquee 5s linear infinite;
-}
-
-.marquee:hover {
-    animation-play-state: paused; /* Stops movement on hover */
-} 
-<div class="marquee">Hover over this text to pause the marquee effect.</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Contact Section -->
-        
         <section id="contact">
             <div class="container">
                 <div class="row">
@@ -380,23 +350,13 @@
                         <p style="--i: 2"><i class="fas fa-phone-square-alt"></i> 8603992705</p>
                         <p style="--i: 3"><i class="fas fa-paper-plane"></i> bhimkantgope8@gmail.com</p>
                         <p style="--i: 4"><i class="fa-solid fa-location-dot"></i> Bano, Simdega, Jharkhand, India (835201)</p>
-                        
-                        <!-- <div class="social-icons social-icons-animation">
-                            <a style="--i: 5" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                            <a style="--i: 6" href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
-                            <a style="--i: 7" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                            <a style="--i: 8" href="https://www.linked.com"><i class="fab fa-linkedin"></i></a>
-                        </div> -->
-                        
+
                         <div class="social-icons" style="--i: 6">
                             <a href=""><i class="fa-brands fa-square-facebook"></i></a>
                             <a href=""><i class="fa-brands fa-square-twitter"></i></a>
                             <a href=""><i class="fa-brands fa-square-github"></i></a>
                             <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
                         </div>
-
-
-                        <!-- <a href="Bhimkant gope (3).pdf" alt="image file" download class="btn btn2">Download CV</a> -->
                     </div>
                     <div class="contact-right">
                         <form action="/server" name="submit-to-google-sheet">
