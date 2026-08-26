@@ -1,4 +1,4 @@
-.navbar a, .navbar ul li, .navbar span a, .navbar span button, .contact-left, .contact-left > *, .social-icons-animation > *{
+.navbar>a, .navbar ul li, .contact-left, .contact-left > *, .social-icons-animation > *{
     opacity: 0;
     animation: slideRight 1s ease-in-out forwards;
     animation-delay: calc(0.2s * var(--i));
@@ -32,6 +32,24 @@
     100% {
         opacity: 1;
         transform: scale(1) rotate(0);
+    }
+}
+
+.navbar span a {
+    opacity: 0;
+    animation: zoomBounce 2s ease-in-out forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes zoomBounce {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
     }
 }
 

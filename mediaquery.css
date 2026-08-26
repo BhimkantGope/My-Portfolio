@@ -1,5 +1,125 @@
-@media (min-width: 700px) and (max-width: 950Px) {
+@media (max-width: 1000Px) {
     .navbar ul {
         display: none;
+    }
+
+    header {
+        padding: 8px 8%;
+    }
+        
+    section {
+        padding: 8% 8% 0%;
+    }
+ 
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }    
+
+    .hero-image {
+        margin-top: -5rem;
+        width: 60%;
+    }
+
+    .hero-content {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .hero-content p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }    
+
+    .about-title {
+        text-align: center;
+    }
+
+    .about-content-info { 
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .about-content-image {
+        display: none;
+    }
+
+    .location {
+        margin-top: 0;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+        
+    .about-content-stack {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+        
+    .about-content-stack .stack {
+        width: 100%;
+    }
+        
+    .work-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .hero-image {
+        margin-top: -2rem;
+        width: 60%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-bottom: 0rem;
+    }
+
+    .contact-right form .btn {
+        margin: 2% 40%;
+    }   
+}
+
+@media (min-width: 1000px){ 
+    .menu-icon, .menu-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 450Px) {
+    .cvbtn {
+        display: none;
+    }
+
+    header {
+        padding: 15px 5%;
     }
 }
