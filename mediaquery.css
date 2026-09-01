@@ -114,12 +114,48 @@
     }
 }
 
-@media (max-width: 450Px) {
+@media (max-width: 500Px) {
     .cvbtn {
         display: none;
     }
+}
 
+@media (max-width: 750Px) {
+    .skills-img {
+        margin: 2rem 2rem;
+    }
+
+    .stats {
+        padding: 1rem 3rem 0;
+    }
+
+    .stats .stat {
+        gap: 0.5rem;
+        min-width: 5rem;
+    }
+
+    .stat:not(:last-child) {
+        padding-right: 2%;
+    }
+
+    .stat h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .stat-text {
+        font-size: 0.6rem;
+        line-height: 1;
+    }
+}
+
+
+@media (max-width: 530Px) {
     header {
-        padding: 15px 5%;
+        padding: 8px 5%;
+    }
+
+    section {
+        padding: 9% 5% 0%;
     }
 }
