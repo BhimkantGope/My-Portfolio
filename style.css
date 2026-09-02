@@ -31,6 +31,7 @@ body {
     background: var(--dark-clr);
     color: var(--text-clr);
     font-family: "Jost", calibri;
+    font-size: 1rem;
 }
 
 button,
@@ -59,7 +60,7 @@ header {
 
 .logo {
     font-size: 1.50rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--text-clr);
 }
 
@@ -84,8 +85,6 @@ header li {
 
 .nav-tag {
     position: relative;
-    font-size: 1rem;
-    font-weight: 500;
     color: var(--text-clr);
 }
 
@@ -125,8 +124,6 @@ header .navbar ul li a:hover::after, header .navbar ul li a.active::after {
 
 .tag {
     position: relative;
-    font-size: 1rem;
-    font-weight: 500;
     color: var(--dark-clr);
 }
 
@@ -162,7 +159,6 @@ header .navbar ul li a:hover::after, header .navbar ul li a.active::after {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    font-size: 1rem;
     font-weight: 600;
     background: var(--btn-clr);
     color: var(--text-clr);
@@ -241,7 +237,7 @@ header .navbar ul li a:hover::after, header .navbar ul li a.active::after {
 .menu-tag {
     position: relative;
     color: var(--dark-clr);
-    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .menu-tag:hover {
@@ -270,7 +266,7 @@ header .navbar ul li a:hover::after, header .navbar ul li a.active::after {
 
 /* Section */
 section {
-    padding: 9% 5% 0%;
+    padding: 8% 5% 0%;
     position: relative;
 }
 
@@ -289,8 +285,8 @@ section {
 }
 
 .hero-image img{
-    width: 80%;
-    height: 80%; 
+    width: 90%;
+    height: 90%; 
     backdrop-filter: blur(2px);
 }
 
@@ -299,7 +295,8 @@ section {
 }
 
 .hero-content p:nth-child(1) {
-    font-size: 50px;
+    font-size: 3rem;
+    margin: 2rem 0;
 }
 
 .hero-content p:nth-child(1) span {
@@ -309,11 +306,6 @@ section {
 
 .hero-content p:nth-child(1) .auto-type {
     color: var(--global-clr);
-}
-
-.hero-content p:nth-child(2) {
-    font-size: 1rem;
-    margin-top: 3rem;
 }
 
 /* Hero Buttons */
@@ -763,7 +755,6 @@ section {
 
 .contact-left{
     flex-basis: 40%;
-    margin-bottom: 2rem;
     line-height: 4rem;
 }
 
@@ -781,25 +772,9 @@ section {
     font-size: 1.5rem;
 }
 
-
-
-
-
-.location {
-    margin-top: 1rem;
-}
-
-.location i {
-    color: var(--global-clr);
-    font-size: 1.5rem;
-}
-
-/* Social Icons */
 /* Social Icons */
 .social-icons {
     display: flex;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
 }
 
 .social-icons a {
@@ -836,7 +811,6 @@ form input, form textarea{
     padding: 0.75rem;
     margin: 1rem 0;
     color: var(--dark-clr);
-    font-size: 1rem;
     border-radius: 6px;
     border: 1px solid var(--global-clr);
 }
@@ -850,12 +824,9 @@ form input:hover, form textarea:hover {
 /* Stats Section*/
 .stats {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 4rem 0;
-    gap: 2rem;
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -865,38 +836,26 @@ form input:hover, form textarea:hover {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    min-width: 8rem;
 }
 
 .stats .stat:not(:last-child) {
-    border-right: 1px solid var(--light-text-clr);
-    padding-right: 5%;
+    border-right: 1px solid var(--global-clr);
 }
 
 .stats .stat h1 {
     font-weight: 600;
-    margin-right: 0rem;
 }
 
 .stat-text {
     display: inline-block;
     color: var(--light-text-clr);
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
-.new-stat {
+.new-stat, .new-stat-text {
     color: var(--dark-clr);
 }
-
-.new-stat:not(:last-child) {
-    border-right: 1px solid var(--dark-clr);
-}
-
-.new-stat-text {
-    color: var(--dark-clr);
-}
-
 
 /* Footer Section */
 #website-info {
@@ -904,7 +863,7 @@ form input:hover, form textarea:hover {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.copyright{
+.copyright {
     font-size: 0.75rem;
     text-align: center;
     padding: 0.75rem 0;

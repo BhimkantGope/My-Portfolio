@@ -36,7 +36,6 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 1rem;
     }    
 
     .about-title {
@@ -82,6 +81,12 @@
     }
 }
 
+@media (min-width: 1000px){ 
+    .menu-icon, .menu-bar {
+        display: none;
+    }
+}
+
 @media (max-width: 850px) {
     .hero-image {
         margin-top: -2rem;
@@ -101,22 +106,15 @@
         justify-content: center;
         align-items: start;
         margin-bottom: 0rem;
-    }
-
-    .contact-right form .btn {
-        margin: 2% 40%;
     }   
-}
-
-@media (min-width: 1000px){ 
-    .menu-icon, .menu-bar {
-        display: none;
+    
+    .stat h1 {
+        font-weight: 400;
     }
-}
 
-@media (max-width: 500Px) {
-    .cvbtn {
-        display: none;
+    .stat-text {
+        font-size: 0.75rem;
+        line-height: 1.25;
     }
 }
 
@@ -125,37 +123,198 @@
         margin: 2rem 2rem;
     }
 
-    .stats {
-        padding: 1rem 3rem 0;
-    }
-
     .stats .stat {
-        gap: 0.5rem;
-        min-width: 5rem;
+        gap: 0.75rem;
     }
+}
 
-    .stat:not(:last-child) {
-        padding-right: 2%;
-    }
-
+@media (max-width: 650px) {
     .stat h1 {
         font-size: 1.5rem;
-        font-weight: 500;
     }
 
     .stat-text {
         font-size: 0.6rem;
-        line-height: 1;
+        line-height: 1.25;
+    }
+
+    .stats .stat {
+        gap: 0.6rem;
+    }
+    
+    .copyright {
+        font-size: 0.6rem;
     }
 }
-
-
+    
 @media (max-width: 530Px) {
+    body, .btn {
+        font-size: 0.85rem;
+    }
+
+    .menu-bar {
+        width: 10rem;
+    }
+
+    .menu-icon {
+        font-size: 1.2rem;
+    }
+
+    .menu-bar ul li {
+        margin-top: 1.5rem;
+    }
+
     header {
         padding: 8px 5%;
     }
 
     section {
         padding: 9% 5% 0%;
+    }
+
+    .hero-content p:nth-child(1) {
+        font-size: 2.25rem;
+        margin: 2rem 0rem;
+    }
+
+    .skills-img img {
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 0.75;
+    }
+
+    .feedback-title {
+        margin: 0 0 1rem 2rem;
+    }
+
+    .feedback-title h2 {
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 500Px) {
+    .cvbtn {
+        display: none;
+    }
+
+    .menu-icon {
+        font-size: 1rem;
+    }
+
+    .stat h1 {
+        font-size: 1.25rem;
+    }
+
+    .stat-text {
+        font-size: 0.6rem;
+        line-height: 1.25;
+    }
+
+    .stats .stat {
+        gap: 0.6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .stat h1 {
+        font-size: 1.15rem;
+    }
+
+    .stat-text {
+        font-size: 0.5rem;
+        line-height: 1.25;
+    }
+
+    .stats .stat {
+        gap: 0.4rem;
+    }
+
+    .stats {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    body, .btn {
+        font-size: 0.75rem;
+    }
+
+    .btn {
+        padding: 0.4rem 0rem;
+    }
+
+    .hero-btn {
+        gap: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .hero-content p:nth-child(1) {
+        font-size: 1.9rem;
+        margin: 2rem 0rem;
+    }
+
+    .stack-btn {
+        padding: 0.15rem 0.75rem;
+    }
+
+    .education-content li {
+        padding: 1rem 1.5rem;
+    }
+
+    .education-content .img-div img {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 0.5rem;
+    }
+
+    .skills-img {
+        margin: 1.5rem 1.5rem;
+    }
+
+    .skills-img img {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 0.5rem;
+    }
+
+    .layer {
+        font-size: 0.75rem;
+    }
+
+    .layer div a {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .layer div a i {
+        font-size: 0.75rem;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+    }
+
+    form input, form textarea {
+        padding: 0.4rem;
+    }
+    .contact-right form .btn {
+        margin-top: 1rem;
+    }
+
+    .stat h1 {
+        font-size: 1rem;
+    }
+
+    .stat-text {
+        font-size: 0.4rem;
+        line-height: 1.25;
+    }
+
+    .stats .stat {
+        gap: 0.4rem;
+    }
+
+    .copyright {
+        font-size: 0.4rem
     }
 }

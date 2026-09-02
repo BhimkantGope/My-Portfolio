@@ -15,7 +15,7 @@ let logo = document.querySelector(".logo");
 let navTags = document.querySelectorAll(".nav-tag");
 let btns = document.querySelectorAll(".btn");
 let stackBtns = document.querySelectorAll(".stack-btn");
-let stat = document.querySelector(".stat");
+let allStat = document.querySelectorAll(".stat h1");
 let statText = document.querySelectorAll(".stat-text");
 let feedback = document.querySelector(".feedback");
 let menuBarIcon = document.querySelector(".menu-bar-icon");
@@ -43,7 +43,9 @@ themeBtn.addEventListener("click", function(e) {
         stackBtn.classList.toggle("new-stack-btn");  
     }
 
-    stat.classList.toggle("new-stat");
+    for(let stat of allStat) {
+        stat.classList.toggle("new-stat");
+    }
 
     for(let stat of statText) {
         stat.classList.toggle("new-stat-text");
