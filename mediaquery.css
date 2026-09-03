@@ -40,11 +40,17 @@
 
     .about-title {
         text-align: center;
+        margin-bottom: 3rem;
     }
 
     .about-content-info { 
         width: 100%;
         border-bottom: none;
+    }
+
+    .about-content-info p:nth-child(2), 
+    .about-content-info p:nth-child(4) {
+        margin-top: 2rem;
     }
 
     .about-content-image {
@@ -53,11 +59,6 @@
 
     .location {
         margin-top: 0;
-    }
-
-    .social-icons {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
     }
         
     .about-content-stack {
@@ -81,13 +82,17 @@
     }
 }
 
-@media (min-width: 1000px){ 
+@media (min-width: 1001px){ 
     .menu-icon, .menu-bar {
         display: none;
     }
 }
 
 @media (max-width: 850px) {
+    section {
+        padding: 10% 5% 0%;
+    }
+
     .hero-image {
         margin-top: -2rem;
         width: 60%;
@@ -105,7 +110,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        margin-bottom: 0rem;
     }   
     
     .stat h1 {
@@ -129,6 +133,10 @@
 }
 
 @media (max-width: 650px) {
+    section {
+        padding: 13% 5% 0%;
+    }
+
     .stat h1 {
         font-size: 1.5rem;
     }
@@ -148,6 +156,10 @@
 }
     
 @media (max-width: 530Px) {
+    section {
+        padding: 14% 5% 0%;
+    }
+
     body, .btn {
         font-size: 0.85rem;
     }
@@ -166,10 +178,6 @@
 
     header {
         padding: 8px 5%;
-    }
-
-    section {
-        padding: 9% 5% 0%;
     }
 
     .hero-content p:nth-child(1) {
@@ -297,6 +305,7 @@
     form input, form textarea {
         padding: 0.4rem;
     }
+
     .contact-right form .btn {
         margin-top: 1rem;
     }
