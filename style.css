@@ -851,7 +851,7 @@ form input:hover, form textarea:hover {
     display: inline-block;
     color: var(--light-text-clr);
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .new-stat, .new-stat-text {
