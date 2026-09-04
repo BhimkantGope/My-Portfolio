@@ -35,7 +35,8 @@
     }
 }
 
-.navbar span a {
+.navbar span a,
+.about-content-image {
     opacity: 0;
     animation: zoomBounce2 2s ease-in-out forwards;
     animation-delay: 0.5s;
@@ -53,7 +54,16 @@
     }
 }
 
-.hero-content-animation > *, .about-container-animation > *, .education-container-animation > *, .skills-container-animation > *, .projects-container-animation > *, .contact-right form > *, .copyright > *, .stats > *{
+.hero-content-animation > *, 
+.about-container-animation > *, 
+.about-content-info > *,
+.technical-skills > *,  
+.education-container-animation > *,
+.education-container-animation ul > *, 
+.skills-container-animation > *, 
+.projects-container-animation > *, 
+.contact-right form > *, 
+.copyright > *, .stats > * {
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: calc(0.2s * var(--i));
