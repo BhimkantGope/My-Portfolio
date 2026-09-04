@@ -17,11 +17,11 @@
 
 .hero-image-animation {
     opacity: 0;
-    animation: zoomBounce 2s ease-in-out forwards;
+    animation: zoomBounce1 2s ease-in-out forwards;
     animation-delay: 0.5s;
 }
 
-@keyframes zoomBounce {
+@keyframes zoomBounce1 {
     0% {
         opacity: 0;
         transform: scale(0.5) rotate(-40deg);
@@ -37,11 +37,11 @@
 
 .navbar span a {
     opacity: 0;
-    animation: zoomBounce 2s ease-in-out forwards;
+    animation: zoomBounce2 2s ease-in-out forwards;
     animation-delay: 0.5s;
 }
 
-@keyframes zoomBounce {
+@keyframes zoomBounce2 {
     0% {
         opacity: 0;
     }

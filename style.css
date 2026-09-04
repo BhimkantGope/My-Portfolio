@@ -48,7 +48,7 @@ header {
     background: rgba(8, 29, 44, 0.5);
     backdrop-filter: blur(5px);
     z-index: 1000;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
@@ -266,7 +266,7 @@ header .navbar ul li a:hover::after, header .navbar ul li a.active::after {
 
 /* Section */
 section {
-    padding: 9% 5% 0%;
+    padding: 8% 5% 0%;
     position: relative;
 }
 
@@ -285,8 +285,8 @@ section {
 }
 
 .hero-image img{
-    width: 90%;
-    height: 90%; 
+    width: 80%;
+    height: 80%; 
     backdrop-filter: blur(2px);
 }
 
