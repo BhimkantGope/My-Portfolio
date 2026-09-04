@@ -1,7 +1,7 @@
 .navbar>a, .navbar ul li, .contact-left, .contact-left > *, .social-icons-animation > *{
     opacity: 0;
     animation: slideRight 1s ease-in-out forwards;
-    animation-delay: calc(0.2s * var(--i));
+    animation-delay: calc(0.1s * var(--i));
 }
 
 @keyframes slideRight {
@@ -18,7 +18,7 @@
 .hero-image-animation {
     opacity: 0;
     animation: zoomBounce1 2s ease-in-out forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.3s;
 }
 
 @keyframes zoomBounce1 {
@@ -38,8 +38,8 @@
 .navbar span a,
 .about-content-image {
     opacity: 0;
-    animation: zoomBounce2 2s ease-in-out forwards;
-    animation-delay: 0.5s;
+    animation: zoomBounce2 1s ease-in-out forwards;
+    animation-delay: 0.3s;
 }
 
 @keyframes zoomBounce2 {
@@ -66,7 +66,7 @@
 .copyright > *, .stats > * {
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
-    animation-delay: calc(0.2s * var(--i));
+    animation-delay: calc(0.1s * var(--i));
 }
 
 @keyframes fadeIn {
